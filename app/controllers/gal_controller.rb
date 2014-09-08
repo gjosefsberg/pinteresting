@@ -1,0 +1,2 @@
+class GalController < ApplicationController
+end
