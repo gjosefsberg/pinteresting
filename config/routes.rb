@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
   get "contact" => "pages#contact"
+  get "about" => "pages#about" # creates a path to the contacts page which I can use to link to from any other page
 
 
   # The priority is based upon order of creation: first created -> highest priority.
