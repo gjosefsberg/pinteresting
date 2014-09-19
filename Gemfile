@@ -39,7 +39,7 @@ gem 'bootstrap-sass'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :deveopment, :test do
+group :development, :test do
 	gem 'sqlite3'
 end
 
